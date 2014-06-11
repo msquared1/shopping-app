@@ -1,0 +1,48 @@
+#image {
+	height:550px;
+	width:100%;
+	margin-top: -5px;
+}
+
+.quote {
+	position:relative;
+	margin-top:-550px;
+	margin-left: 20px;
+	height:150px;
+	float:left;
+	text-align: center;
+	font-weight: bold;
+	width:55%;
+	padding:5px;
+	font-size: 30px;
+}
+
+.items {
+	position:relative;
+	margin-top:-450px;
+	margin-right: 40px;
+	margin-left: 60%;
+	height:350px;
+	width:30%;
+	text-align: center;
+	background-color: brown;
+	border-radius: 25px;
+	padding:5px;
+}
+
+ol {
+	text-align: left;
+	font-size: 20px;
+}
+
+.footer {
+	position:inherit;
+	margin-top:90px;
+	height:90px;
+	width:100%;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	background-color: brown;
+	clear:both;
+}
