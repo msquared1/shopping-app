@@ -2,36 +2,30 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Grilling</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<script src="https://code.jquery.com/jquery.min.js"></script>
 	<script src="js/app.js"></script>
-	
+	<title>Shopping App</title>
 </head>
-<body> 
+<body id="grill" class="position"> 
 		<div> 
-		<img src="images/bbq-grass.jpg" id="image">
+		<h1>Grillin' App</h1>
 		</div>
-		<div class="quote">
-				<p>"It is better to have burnt and lost 
-				then never to have barbecued at all."
-				 – Billy Shakespeare</p>
+		<div class="list">
+			<div class="add">
+		<input class="plus" type="text" name="item" placeholder="put it here and don't forget it">
 		</div>
-	<div class="items">
-			<h2>ITEMS NEEDED FOR BAR-B-Q!</h2>
-			<ol>
-				<li>Beer</li>
-				<li>Steak</li>
-				<li>Onions</li>
-				<li>Tomatoes</li>
-				<li>Fresh Corn</li>
-			</ol>
-	</div>
-	<div class="footer">
-				<br>
-		 		<p>GET ALL YOUR FIXINS' CAUSE YOU DON"T WANT TO BE THAT GUY</p>
-	</div>
+			<p>ITEMS NEEDED FOR GRILLIN'!</p>
+			<ul>
+				<li class="new" style="display:none;">
+				<span class="check"></span>
+				<span class="done"></span>
+				<span class="image"></span>
+				</li>
+			</ul>
+		</div>
 
-	
+
 </body>
 </html>

@@ -13,7 +13,7 @@ $( "input" ).keyup(function(event) {
     	};
   })
 	$(document).on("click", ".image", function(){
-     $(this).closest('li').fadeOut(300).remove();
+     $(this).closest('li').fadeOut(200).remove();
 	});
 	$(document).on("click", ".check", function(){
 		if (!$(this).closest('li').hasClass('a1')) {
